@@ -1,0 +1,9 @@
+.greeting {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(75, 73, 212);
+    text-align: center;
+    color:aliceblue;
+    padding-top: 50px;
+    font-size: 46px;
+}
