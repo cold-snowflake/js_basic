@@ -57,3 +57,13 @@ if (needKiwis) {
 }
 const price = appleCount * applePrice + orangeCount * orangePrice + kiwiCount * kiwiPrice
 console.log(`${myName} want's to buy fruits for total price: ${price} UAH`)
+
+// homework2
+ let firstNumber = Number(prompt('Enter first number'))
+ let secondNumber = Number(prompt('Enter second number'))
+
+ console.log(`${firstNumber}+${secondNumber}=${firstNumber+secondNumber}`)
+ console.log(`${firstNumber}-${secondNumber}=${firstNumber-secondNumber}`)
+ console.log(`${firstNumber}*${secondNumber}=${firstNumber*secondNumber}`)
+ console.log(`${firstNumber}/${secondNumber}=${firstNumber/secondNumber}`)
+ 
