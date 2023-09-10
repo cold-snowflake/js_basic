@@ -150,4 +150,3 @@ for (let i = 0; i < finalArr.length; i++ ) {
 }
 
 alert(sum)
-
