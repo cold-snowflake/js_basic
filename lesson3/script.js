@@ -122,3 +122,32 @@ console.log('lists', lists)
 // for (let i = 0; i < myArr.length; i++) {
 //     console.log(i,typeof myArr[i])
 // }
+
+
+
+// homework4
+
+const numbersArr = []
+count = 0
+while (count < 3){
+    let number = Number(prompt ('Enter any number'))
+    numbersArr.push(number)
+    count++
+}
+
+console.log(numbersArr)
+
+const finalArr = numbersArr.filter(function (value) {
+    return !Number.isNaN(value);
+});
+
+console.log(finalArr)
+
+let sum = 0
+
+for (let i = 0; i < finalArr.length; i++ ) {
+    sum += finalArr[i];
+}
+
+alert(sum)
+
