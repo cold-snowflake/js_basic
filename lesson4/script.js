@@ -158,3 +158,29 @@
 // newCars[2] = 'ferrari'
 // console.log(cars)
 // console.log(newCars)
+
+
+
+//homework 5
+
+let lessNumber = Number(prompt('Enter any number'))
+let biggerNumber = Number(prompt(`Enter number bigger than ${lessNumber}`))
+
+while (lessNumber > biggerNumber){
+    biggerNumber = Number(prompt(`Enter number bigger than ${lessNumber}`))
+}
+let stepNumber = Number(prompt('Enter number bigger than 0'))
+
+while(stepNumber < 0){
+    stepNumber = Number(prompt('Enter number bigger than 0'))
+}
+
+let sumOfFactorials = 0
+for(i=lessNumber; i<=biggerNumber; i+=stepNumber){
+    factorial = 1
+    for(j=1; j<=i; j++){
+        factorial *= j
+    }  
+    sumOfFactorials += factorial
+}
+console.log(sumOfFactorials)
