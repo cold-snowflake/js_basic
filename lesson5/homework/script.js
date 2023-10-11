@@ -125,3 +125,28 @@ for (let i = 1; i <= 10; i++){
         console.log(`${i} * ${element} = ${i * element}`)
     });
 }
+
+
+
+// Creation of random arrays.
+
+let lengthArr = prompt('Enter any positiv number')
+
+let arrA = [];
+for (let i = 1; i <= lengthArr; i++){
+    arrA.push(Math.floor(Math.random()* 100))
+}
+console.log(arrA)
+
+
+let arrB = arrA.filter((number) => {
+  for (var i = 2; i <= Math.sqrt(number); i++) {
+    if (number % i === 0) return false;
+  }
+  return true;
+});
+
+console.log(arrB);
+
+console.log(Math.min.apply(Math, arrB))
+console.log(Math.max.apply(Math, arrB))
