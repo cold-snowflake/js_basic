@@ -15,3 +15,15 @@ let a = main(5, 2, function(b){
 console.log(a)
 
 
+// # 2
+
+const array = [1, 2, 3, 4, 5, 6, 7];
+
+
+function removeElement(arr, num){
+    const index = arr.indexOf(num)
+    arr.splice(index, 1)
+}
+    
+removeElement(array, 3);
+console.log(array);
