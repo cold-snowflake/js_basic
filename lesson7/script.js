@@ -67,7 +67,21 @@
 
 //IIFE
 
-(function(args){
-    console.log('args', args)
-    console.log('HELLE I`M IIFE')
-})('Hello I`m args')
+// (function(args){
+//     console.log('args', args)
+//     console.log('HELLO I`M IIFE')
+// })('Hello I`m args')
+
+
+// recursion 
+
+function numberToPower(num, degree){
+    if (degree === 0) {
+        return 1
+    } else {
+        return num * numberToPower(num, degree - 1)
+    } 
+    
+}
+
+console.log(numberToPower(4, 3))
