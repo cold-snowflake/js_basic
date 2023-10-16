@@ -85,3 +85,15 @@ function numberToPower(num, degree){
 }
 
 console.log(numberToPower(4, 3))
+
+
+// hours to seconds
+
+const enterHours = prompt("Enter hours")
+const enterMinute = prompt("Enter minutes")
+function hoursToSeconds(enterHours, enterMinute){
+    let results = enterHours * 3600 + enterMinute * 60
+    alert(`In ${enterHours}:${enterMinute} hours is ${results} seconds`)
+}
+
+hoursToSeconds(enterHours, enterMinute)
