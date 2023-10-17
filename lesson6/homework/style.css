@@ -1,0 +1,11 @@
+body{
+    background-color: coral;
+}
+
+h1{
+    text-align: center;
+    background-color: burlywood;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: coral;
+}
